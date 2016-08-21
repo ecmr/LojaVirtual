@@ -5,6 +5,14 @@
 	border: 1px solid;
 }
 
+.jumbotron {
+	padding-top: 0px;
+}
+.container {
+	width: 1024px;
+}
+
+
 /*---------------- menu tab----------------------*/
 #menu_tab{
 width:990px;
@@ -46,13 +54,11 @@ ul.menu li {
 
 
 .top_search{
-width:370px;
-height:50px;
-margin:-50px -60px 0 0;
-float:right;
-/* padding: 10px 10px 10px 10px; */
-border-top-left-radius: 144px;
-border-bottom-right-radius: 140px;
+	height: 50px;
+    margin: -50px 0 0 -68px;
+    float: left;
+    padding: 10px 0px 0px 0px;
+    width: 310px;
 }
 
 input.search_input{
@@ -102,11 +108,14 @@ background-position:0px 0px;
 margin:auto;
 }
 #logo{
-float:left;
-padding:10px;
-margin-top:-10px;
+	float:left;
+	padding:10px;
+	margin-top:-10px;
 }
 
 .user-position {
 	text-align: center;
+	padding-top: 8%;
+	font-size: 12px;
+	margin-left: -50px;
 }
