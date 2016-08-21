@@ -1,0 +1,324 @@
+<div class="jumbotron vertical-center">
+  
+  <div class="container text-center border-row">
+    <div class="row">
+      <div class="col-md-3 ">
+        <img src="assets/images/artes-annato.png" alt="Chania" width="237" height="140">
+      </div>  
+      <div class="col-md-9 ">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
+          </ol>
+
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner" role="listbox">
+
+            <div class="item active">
+              <img src="assets/images/img_chania.jpg" alt="Chania" width="237" height="140">
+              <div class="carousel-caption">
+                <h3>Chania</h3>
+                <p>The atmosphere in Chania has a touch of Florence and Venice.</p>
+              </div>
+            </div>
+
+            <div class="item">
+              <img src="assets/images/img_chania2.jpg" alt="Chania" width="237" height="140">
+              <div class="carousel-caption">
+                <h3>Chania</h3>
+                <p>The atmosphere in Chania has a touch of Florence and Venice.</p>
+              </div>
+            </div>
+          
+            <div class="item">
+              <img src="assets/images/img_flower.jpg" alt="Flower" width="237" height="140">
+              <div class="carousel-caption">
+                <h3>Flowers</h3>
+                <p>Beatiful flowers in Kolymbari, Crete.</p>
+              </div>
+            </div>
+
+            <div class="item">
+              <img src="assets/images/img_flower2.jpg" alt="Flower" width="237" height="140">
+              <div class="carousel-caption">
+                <h3>Flowers</h3>
+                <p>Beatiful flowers in Kolymbari, Crete.</p>
+              </div>
+            </div>
+        
+          </div>
+
+          <!-- Left and right controls -->
+          <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>    
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <ul class="menu">
+          <li><a href="Default.aspx" onclick="RecuperaLabelSession();" class="nav1">Home </a></li>
+          <li><a href="Produtos.aspx" class="nav2">Produtos</a></li>
+          <li><a id="lnkEntrar" class="nav4" href="Autenticar.aspx">Entrar</a></li>
+          <li><a href="Contact.aspx" class="nav6">Contato</a></li>
+        </ul>
+      </div>
+      <div class="col-md-3">
+        <div class="user-position">
+          <p>
+            <span id="lblSaldacaoUsuario">Usuário anonimo</span>
+          </p>
+        </div>
+      </div>
+     <div class="col-md-3">
+      <div class="left_menu_corner">
+         </div>
+
+      <div class="right_menu_corner">
+      </div>
+        <div class="top_search">
+          <div class="search_text">
+              <a href="#">Pesquisar</a>
+          </div>
+          <input name="ctl00$txtPesquisa" type="text" id="txtPesquisa" class="search_input">
+          <span id="RequiredFieldValidator1" style="display:none;"></span>
+          <input type="image" name="ctl00$btnPesquisar" id="btnPesquisar" class="search_bt" src="assets/images/search.gif" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$btnPesquisar&quot;, &quot;&quot;, true, &quot;pesquisa&quot;, &quot;&quot;, false, false))">
+        </div>
+     </div> 
+    </div>
+    <div class="row">
+      <div class="col-md-2 border-row">
+        ESQUERDA
+      </div>
+      <div class="col-md-8 border-row">
+        <!--CENTRO LISTA DE PRODUTOS-->
+          <div class="row">
+            <div class="col-sm-12 col-lg-12 col-md-12">
+
+              
+              <div class="col-sm-4 col-lg-4 col-md-4">
+                <div class="thumbnail">
+                  <img src="http://placehold.it/320x150" alt="">
+                  <div class="caption">
+                    <h4 class="pull-right">$64.99</h4>
+                    <h4><a href="#">Second Product</a>
+                    </h4>
+                    <p>This is a short description. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                  </div>
+                  <div class="ratings">
+                    <p class="pull-right">12 reviews</p>
+                    <p>
+                      <span class="glyphicon glyphicon-star"></span>
+                      <span class="glyphicon glyphicon-star"></span>
+                      <span class="glyphicon glyphicon-star"></span>
+                      <span class="glyphicon glyphicon-star"></span>
+                      <span class="glyphicon glyphicon-star-empty"></span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-4 col-lg-4 col-md-4">
+                <div class="thumbnail">
+                  <img src="http://placehold.it/320x150" alt="">
+                  <div class="caption">
+                    <h4 class="pull-right">$74.99</h4>
+                    <h4><a href="#">Third Product</a>
+                    </h4>
+                    <p>This is a short description. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                  </div>
+                  <div class="ratings">
+                    <p class="pull-right">31 reviews</p>
+                    <p>
+                      <span class="glyphicon glyphicon-star"></span>
+                      <span class="glyphicon glyphicon-star"></span>
+                      <span class="glyphicon glyphicon-star"></span>
+                      <span class="glyphicon glyphicon-star"></span>
+                      <span class="glyphicon glyphicon-star-empty"></span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-4 col-lg-4 col-md-4">
+                <div class="thumbnail">
+                  <img src="http://placehold.it/320x150" alt="">
+                  <div class="caption">
+                    <h4 class="pull-right">$84.99</h4>
+                    <h4><a href="#">Fourth Product</a>
+                    </h4>
+                    <p>This is a short description. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                  </div>
+                  <div class="ratings">
+                    <p class="pull-right">6 reviews</p>
+                    <p>
+                      <span class="glyphicon glyphicon-star"></span>
+                      <span class="glyphicon glyphicon-star"></span>
+                      <span class="glyphicon glyphicon-star"></span>
+                      <span class="glyphicon glyphicon-star-empty"></span>
+                      <span class="glyphicon glyphicon-star-empty"></span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-4 col-lg-4 col-md-4">
+                <div class="thumbnail">
+                  <img src="http://placehold.it/320x150" alt="">
+                  <div class="caption">
+                    <h4 class="pull-right">$94.99</h4>
+                    <h4><a href="#">Fifth Product</a>
+                    </h4>
+                    <p>This is a short description. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                  </div>
+                  <div class="ratings">
+                    <p class="pull-right">18 reviews</p>
+                    <p>
+                      <span class="glyphicon glyphicon-star"></span>
+                      <span class="glyphicon glyphicon-star"></span>
+                      <span class="glyphicon glyphicon-star"></span>
+                      <span class="glyphicon glyphicon-star"></span>
+                      <span class="glyphicon glyphicon-star-empty"></span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-4 col-lg-4 col-md-4">
+                <div class="thumbnail">
+                  <img src="http://placehold.it/320x150" alt="">
+                  <div class="caption">
+                    <h4 class="pull-right">$94.99</h4>
+                    <h4><a href="#">Fifth Product</a>
+                    </h4>
+                    <p>This is a short description. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                  </div>
+                  <div class="ratings">
+                    <p class="pull-right">18 reviews</p>
+                    <p>
+                      <span class="glyphicon glyphicon-star"></span>
+                      <span class="glyphicon glyphicon-star"></span>
+                      <span class="glyphicon glyphicon-star"></span>
+                      <span class="glyphicon glyphicon-star"></span>
+                      <span class="glyphicon glyphicon-star-empty"></span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-4 col-lg-4 col-md-4">
+                <div class="thumbnail">
+                  <img src="http://placehold.it/320x150" alt="">
+                  <div class="caption">
+                    <h4 class="pull-right">$94.99</h4>
+                    <h4><a href="#">Fifth Product</a>
+                    </h4>
+                    <p>This is a short description. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                  </div>
+                  <div class="ratings">
+                    <p class="pull-right">18 reviews</p>
+                    <p>
+                      <span class="glyphicon glyphicon-star"></span>
+                      <span class="glyphicon glyphicon-star"></span>
+                      <span class="glyphicon glyphicon-star"></span>
+                      <span class="glyphicon glyphicon-star"></span>
+                      <span class="glyphicon glyphicon-star-empty"></span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-4 col-lg-4 col-md-4">
+                <div class="thumbnail">
+                  <img src="http://placehold.it/320x150" alt="">
+                  <div class="caption">
+                    <h4 class="pull-right">$94.99</h4>
+                    <h4><a href="#">Fifth Product</a>
+                    </h4>
+                    <p>This is a short description. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                  </div>
+                  <div class="ratings">
+                    <p class="pull-right">18 reviews</p>
+                    <p>
+                      <span class="glyphicon glyphicon-star"></span>
+                      <span class="glyphicon glyphicon-star"></span>
+                      <span class="glyphicon glyphicon-star"></span>
+                      <span class="glyphicon glyphicon-star"></span>
+                      <span class="glyphicon glyphicon-star-empty"></span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-4 col-lg-4 col-md-4">
+                <div class="thumbnail">
+                  <img src="http://placehold.it/320x150" alt="">
+                  <div class="caption">
+                    <h4 class="pull-right">$94.99</h4>
+                    <h4><a href="#">Fifth Product</a>
+                    </h4>
+                    <p>This is a short description. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                  </div>
+                  <div class="ratings">
+                    <p class="pull-right">18 reviews</p>
+                    <p>
+                      <span class="glyphicon glyphicon-star"></span>
+                      <span class="glyphicon glyphicon-star"></span>
+                      <span class="glyphicon glyphicon-star"></span>
+                      <span class="glyphicon glyphicon-star"></span>
+                      <span class="glyphicon glyphicon-star-empty"></span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-4 col-lg-4 col-md-4">
+                <div class="thumbnail">
+                  <img src="http://placehold.it/320x150" alt="">
+                  <div class="caption">
+                    <h4 class="pull-right">$94.99</h4>
+                    <h4><a href="#">Fifth Product</a>
+                    </h4>
+                    <p>This is a short description. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                  </div>
+                  <div class="ratings">
+                    <p class="pull-right">18 reviews</p>
+                    <p>
+                      <span class="glyphicon glyphicon-star"></span>
+                      <span class="glyphicon glyphicon-star"></span>
+                      <span class="glyphicon glyphicon-star"></span>
+                      <span class="glyphicon glyphicon-star"></span>
+                      <span class="glyphicon glyphicon-star-empty"></span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        <!--FIM CENTRO-->
+      </div>
+      <div class="col-md-2 border-row">
+        DIREITA
+      </div>    
+    </div>
+    <div class="row">
+      <div class="col-md-12 border-row">
+        FOOTER
+      </div>    
+    </div>    
+  </div>
+  
+</div>
+
+
+{{outlet}}
